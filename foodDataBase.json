@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Яблуко",
+    "CaloriesPer100g": 52
+  },
+  {
+    "Name": "Банан",
+    "CaloriesPer100g": 96
+  },
+  {
+    "Name": "Куряче філе",
+    "CaloriesPer100g": 165
+  },
+  {
+    "Name": "Рис",
+    "CaloriesPer100g": 130
+  },
+  {
+    "Name": "Молоко",
+    "CaloriesPer100g": 42
+  }, 
+  {
+		"Name": "Індичка",
+		"CaloriesPer100g": 140
+	}
+]

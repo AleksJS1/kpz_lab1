@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserDataForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17005e858803fd3b9e0583e5d216e751cea6b5cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3f82bb5ec4b3af4b8080b65c315a265faa9c8c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserDataForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserDataForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

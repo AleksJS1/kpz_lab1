@@ -7,9 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{D842FE30-A2B2-47AB-A580-300724C69D86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDataForm", "UserDataForm\UserDataForm.csproj", "{0BAF66AF-787E-4D31-BD8F-F05A688DF117}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalorieCalculatorForm", "CalorieCalculatorForm\CalorieCalculatorForm.csproj", "{8168567B-2881-4538-BB42-E0F5BD8DB74D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserDataForm", "UserDataForm\UserDataForm.csproj", "{0BAF66AF-787E-4D31-BD8F-F05A688DF117}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{0BAF66AF-787E-4D31-BD8F-F05A688DF117}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BAF66AF-787E-4D31-BD8F-F05A688DF117}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BAF66AF-787E-4D31-BD8F-F05A688DF117}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8168567B-2881-4538-BB42-E0F5BD8DB74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8168567B-2881-4538-BB42-E0F5BD8DB74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8168567B-2881-4538-BB42-E0F5BD8DB74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8168567B-2881-4538-BB42-E0F5BD8DB74D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

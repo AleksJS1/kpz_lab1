@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Calculator\Calculator.csproj" />
-    <ProjectReference Include="..\CalorieCalculatorForm\CalorieCalculatorForm.csproj" />
     <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj" />
   </ItemGroup>
 

@@ -9,4 +9,3 @@ E:\STUDY ZTU\1course\Курсове Проєктування\CalculatorCalories\
 E:\STUDY ZTU\1course\Курсове Проєктування\CalculatorCalories\ClassLibrary\obj\Debug\net8.0\refint\ClassLibrary.dll
 E:\STUDY ZTU\1course\Курсове Проєктування\CalculatorCalories\ClassLibrary\obj\Debug\net8.0\ClassLibrary.pdb
 E:\STUDY ZTU\1course\Курсове Проєктування\CalculatorCalories\ClassLibrary\obj\Debug\net8.0\ref\ClassLibrary.dll
-E:\STUDY ZTU\1course\Курсове Проєктування\CalculatorCalories\ClassLibrary\obj\Debug\net8.0\ClassLibrary.sourcelink.json

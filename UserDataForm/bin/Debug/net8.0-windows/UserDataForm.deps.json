@@ -9,7 +9,6 @@
       "UserDataForm/1.0.0": {
         "dependencies": {
           "Calculator": "1.0.0",
-          "CalorieCalculatorForm": "1.0.0",
           "ClassLibrary": "1.0.0"
         },
         "runtime": {
@@ -22,17 +21,6 @@
         },
         "runtime": {
           "Calculator.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "CalorieCalculatorForm/1.0.0": {
-        "dependencies": {
-          "ClassLibrary": "1.0.0"
-        },
-        "runtime": {
-          "CalorieCalculatorForm.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -55,11 +43,6 @@
       "sha512": ""
     },
     "Calculator/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CalorieCalculatorForm/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
