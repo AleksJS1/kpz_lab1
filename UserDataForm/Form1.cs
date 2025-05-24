@@ -10,11 +10,13 @@ namespace UserDataForm
         public int Age { get; private set; }
         public double ActivityLevel { get; private set; }
         public double dailyCalories { get; private set; }
+        public FoodDatabaseManager foodManager { get; private set; }
         public Form1()
         {
             InitializeComponent();
             InitializeActivityLevels();
         }
+
 
         private void InitializeActivityLevels()
         {
@@ -39,7 +41,8 @@ namespace UserDataForm
 
                 double dailyCalories = CalculateDailyCalories(gender, weight, height, age, activityLevel);
                 this.Hide();
-                CalorieCalc calorieCalculator = new CalorieCalc(Weight, Height, Gender, Age, ActivityLevel, dailyCalories);
+                FoodDatabaseManager foodManager = new FoodDatabaseManager();
+                CalorieCalc calorieCalculator = new CalorieCalc(Weight, Height, Gender, Age, ActivityLevel, dailyCalories, foodManager);
                 calorieCalculator.Show();
             }
             catch (Exception ex)
