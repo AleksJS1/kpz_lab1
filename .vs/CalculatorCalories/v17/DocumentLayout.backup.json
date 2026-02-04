@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0BAF66AF-787E-4D31-BD8F-F05A688DF117}|UserDataForm\\UserDataForm.csproj|e:\\study ztu\\1course\\\u043A\u0443\u0440\u0441\u043E\u0432\u0435 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\calculatorcalories\\userdataform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BAF66AF-787E-4D31-BD8F-F05A688DF117}|UserDataForm\\UserDataForm.csproj|solutionrelative:userdataform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A33B1A6-CD1D-437E-A44A-49216917FA39}|ClassLibrary\\ClassLibrary.csproj|e:\\study ztu\\1course\\\u043A\u0443\u0440\u0441\u043E\u0432\u0435 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\calculatorcalories\\classlibrary\\activitylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A33B1A6-CD1D-437E-A44A-49216917FA39}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\activitylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A33B1A6-CD1D-437E-A44A-49216917FA39}|ClassLibrary\\ClassLibrary.csproj|e:\\study ztu\\1course\\\u043A\u0443\u0440\u0441\u043E\u0432\u0435 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\calculatorcalories\\classlibrary\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A33B1A6-CD1D-437E-A44A-49216917FA39}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\fooditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A33B1A6-CD1D-437E-A44A-49216917FA39}|ClassLibrary\\ClassLibrary.csproj|e:\\study ztu\\1course\\\u043A\u0443\u0440\u0441\u043E\u0432\u0435 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\calculatorcalories\\classlibrary\\fooddatabasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A33B1A6-CD1D-437E-A44A-49216917FA39}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\fooddatabasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|e:\\study ztu\\1course\\\u043A\u0443\u0440\u0441\u043E\u0432\u0435 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\calculatorcalories\\calculator\\addfoodmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|solutionrelative:calculator\\addfoodmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|e:\\study ztu\\1course\\\u043A\u0443\u0440\u0441\u043E\u0432\u0435 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\calculatorcalories\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|solutionrelative:calculator\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BAF66AF-787E-4D31-BD8F-F05A688DF117}|UserDataForm\\UserDataForm.csproj|E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\userdataform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0BAF66AF-787E-4D31-BD8F-F05A688DF117}|UserDataForm\\UserDataForm.csproj|solutionrelative:userdataform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|e:\\study ztu\\1course\\\u043A\u0443\u0440\u0441\u043E\u0432\u0435 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\calculatorcalories\\calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|solutionrelative:calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BAF66AF-787E-4D31-BD8F-F05A688DF117}|UserDataForm\\UserDataForm.csproj|e:\\study ztu\\1course\\\u043A\u0443\u0440\u0441\u043E\u0432\u0435 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\calculatorcalories\\userdataform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BAF66AF-787E-4D31-BD8F-F05A688DF117}|UserDataForm\\UserDataForm.csproj|solutionrelative:userdataform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\calculator\\addfoodmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|solutionrelative:calculator\\addfoodmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|e:\\study ztu\\1course\\\u043A\u0443\u0440\u0441\u043E\u0432\u0435 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\calculatorcalories\\calculator\\addfoodmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D842FE30-A2B2-47AB-A580-300724C69D86}|Calculator\\Calculator.csproj|solutionrelative:calculator\\addfoodmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A33B1A6-CD1D-437E-A44A-49216917FA39}|ClassLibrary\\ClassLibrary.csproj|e:\\study ztu\\1course\\\u043A\u0443\u0440\u0441\u043E\u0432\u0435 \u043F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\calculatorcalories\\classlibrary\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A33B1A6-CD1D-437E-A44A-49216917FA39}|ClassLibrary\\ClassLibrary.csproj|solutionrelative:classlibrary\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,97 +51,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\Program.cs",
-              "RelativeDocumentMoniker": "Calculator\\Program.cs",
-              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\Program.cs",
-              "RelativeToolTip": "Calculator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIA2wA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T19:44:11.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "addFoodMenu.cs",
               "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\addFoodMenu.cs",
               "RelativeDocumentMoniker": "Calculator\\addFoodMenu.cs",
               "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\addFoodMenu.cs",
               "RelativeToolTip": "Calculator\\addFoodMenu.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBgAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAA2wCYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T19:32:17.009Z",
+              "WhenOpened": "2025-06-03T06:52:08.074Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "addFoodMenu.cs [Design]",
-              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\addFoodMenu.cs",
-              "RelativeDocumentMoniker": "Calculator\\addFoodMenu.cs",
-              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\addFoodMenu.cs [Design]",
-              "RelativeToolTip": "Calculator\\addFoodMenu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T19:32:14.482Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\UserDataForm\\Form1.cs",
-              "RelativeDocumentMoniker": "UserDataForm\\Form1.cs",
-              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\UserDataForm\\Form1.cs",
-              "RelativeToolTip": "UserDataForm\\Form1.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwCwAAAA/AAAAAAAAAA==",
+              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\Form1.cs",
+              "RelativeDocumentMoniker": "Calculator\\Form1.cs",
+              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\Form1.cs",
+              "RelativeToolTip": "Calculator\\Form1.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAADwv18AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:46:36.083Z",
+              "WhenOpened": "2025-06-03T06:52:01.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Meal.cs",
+              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\ClassLibrary\\Meal.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Meal.cs",
+              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\ClassLibrary\\Meal.cs",
+              "RelativeToolTip": "ClassLibrary\\Meal.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:51:55.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodItem.cs",
+              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\ClassLibrary\\FoodItem.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\FoodItem.cs",
+              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\ClassLibrary\\FoodItem.cs",
+              "RelativeToolTip": "ClassLibrary\\FoodItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:51:54.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\UserDataForm\\Form1.cs",
-              "RelativeDocumentMoniker": "UserDataForm\\Form1.cs",
-              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\UserDataForm\\Form1.cs [Design]",
-              "RelativeToolTip": "UserDataForm\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:46:30.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\Form1.cs",
-              "RelativeDocumentMoniker": "Calculator\\Form1.cs",
-              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\Form1.cs [Design]",
-              "RelativeToolTip": "Calculator\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T14:45:21.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\Form1.cs",
-              "RelativeDocumentMoniker": "Calculator\\Form1.cs",
-              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\Calculator\\Form1.cs",
-              "RelativeToolTip": "Calculator\\Form1.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T18:39:35.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "FoodDataBaseManager.cs",
               "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\ClassLibrary\\FoodDataBaseManager.cs",
               "RelativeDocumentMoniker": "ClassLibrary\\FoodDataBaseManager.cs",
               "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\ClassLibrary\\FoodDataBaseManager.cs",
               "RelativeToolTip": "ClassLibrary\\FoodDataBaseManager.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAuwCcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwB4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T17:38:53.595Z",
+              "WhenOpened": "2025-06-03T06:51:53.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActivityLevel.cs",
+              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\ClassLibrary\\ActivityLevel.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\ActivityLevel.cs",
+              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\ClassLibrary\\ActivityLevel.cs",
+              "RelativeToolTip": "ClassLibrary\\ActivityLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:51:51.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\UserDataForm\\Form1.cs",
+              "RelativeDocumentMoniker": "UserDataForm\\Form1.cs",
+              "ToolTip": "E:\\STUDY ZTU\\1course\\\u041A\u0443\u0440\u0441\u043E\u0432\u0435 \u041F\u0440\u043E\u0454\u043A\u0442\u0443\u0432\u0430\u043D\u043D\u044F\\CalculatorCalories\\UserDataForm\\Form1.cs*",
+              "RelativeToolTip": "UserDataForm\\Form1.cs*",
+              "ViewState": "AgIAACQAAAAAAAAAAADwv0cAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:43:50.509Z",
               "EditorCaption": ""
             }
           ]

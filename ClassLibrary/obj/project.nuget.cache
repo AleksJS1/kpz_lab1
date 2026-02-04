@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mJUn0EcnfSE=",
+  "dgSpecHash": "E8n6PgVsPSg=",
   "success": true,
   "projectFilePath": "E:\\STUDY ZTU\\1course\\Курсове Проєктування\\CalculatorCalories\\ClassLibrary\\ClassLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Roman\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.23\\microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.23\\microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
+    "C:\\Users\\Roman\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512"
+  ],
   "logs": []
 }
