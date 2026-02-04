@@ -6,7 +6,7 @@ namespace UserDataForm
     {
         public double Weight { get; private set; }
         public double Height { get; private set; }
-        public string Gender { get; private set; }
+        public Gender Gender { get; private set; }
         public int Age { get; private set; }
         public double ActivityLevel { get; private set; }
         public double dailyCalories { get; private set; }
@@ -32,7 +32,7 @@ namespace UserDataForm
         {
             try
             {
-                string gender = radioButtonMale.Checked ? "������" : "Ƴ���";
+                Gender gender = radioButtonMale.Checked ? Gender.Male : Gender.Female;
                 double weight = double.Parse(textBoxWeight.Text);
                 double height = double.Parse(textBoxHeight.Text);
                 int age = int.Parse(txtAge.Text);
@@ -45,26 +45,26 @@ namespace UserDataForm
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"�������: {ex.Message}", "�������", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Помилка: {ex.Message}", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
            
         }
 
-        public double CalculateDailyCalories(string gender, double weight, double height, int age, double activityLevel)
+        public double CalculateDailyCalories(Gender gender, double weight, double height, int age, double activityLevel)
         {
             double bmr;
 
-            if (gender == "������")
+            if (gender == Gender.Male)
             {
                 bmr = 10 * weight + 6.25 * height - 5 * age + 5;
             }
-            else if (gender == "Ƴ���")
+            else if (gender == Gender.Female)
             {
                 bmr = 10 * weight + 6.25 * height - 5 * age - 161;
             }
             else
             {
-                throw new ArgumentException("������ ������� �����");
+                throw new ArgumentException("Invalid gender");
             }
 
             return bmr * activityLevel;

@@ -51,13 +51,13 @@ namespace Calculator
 
 
 
-        public CalorieCalc(double weight, double height, string gender, int age, double activityLevel, double dailyCalories)
+        public CalorieCalc(double weight, double height, Gender gender, int age, double activityLevel, double dailyCalories)
         {
             InitializeComponent();
             foodDatabaseManager = FoodDatabaseManagerSingleton.Instance;
             currentMeal = new Meal();
             this.dailyCalorieNorm = dailyCalories;
-            calorieNorm.Text = $"����� �����: {dailyCalorieNorm:F0} ����";
+            calorieNorm.Text = $"Норма днів: {dailyCalorieNorm:F0} ккал";
             InitializeFoodComboBox();
         }
 
