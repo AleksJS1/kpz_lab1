@@ -10,7 +10,6 @@ namespace UserDataForm
         public int Age { get; private set; }
         public double ActivityLevel { get; private set; }
         public double dailyCalories { get; private set; }
-        public FoodDatabaseManager foodManager { get; private set; }
         public Form1()
         {
             InitializeComponent();
@@ -20,11 +19,11 @@ namespace UserDataForm
 
         private void InitializeActivityLevels()
         {
-            cmbActivityLevel.Items.Add(new ActivityLevel("Сидячий спосіб життя", 1.2));
-            cmbActivityLevel.Items.Add(new ActivityLevel("Легка активність (1-3 тренування/тиждень)", 1.375));
-            cmbActivityLevel.Items.Add(new ActivityLevel("Помірна активність (3-5 тренувань/тиждень)", 1.55));
-            cmbActivityLevel.Items.Add(new ActivityLevel("Висока активність (6-7 тренувань/тиждень)", 1.725));
-            cmbActivityLevel.Items.Add(new ActivityLevel("Дуже висока активність (важка фізична робота)", 1.9));
+            cmbActivityLevel.Items.Add(new ActivityLevel("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ", 1.2));
+            cmbActivityLevel.Items.Add(new ActivityLevel("пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (1-3 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)", 1.375));
+            cmbActivityLevel.Items.Add(new ActivityLevel("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (3-5 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)", 1.55));
+            cmbActivityLevel.Items.Add(new ActivityLevel("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (6-7 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅпїЅпїЅ)", 1.725));
+            cmbActivityLevel.Items.Add(new ActivityLevel("пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ)", 1.9));
             cmbActivityLevel.SelectedIndex = 0;
         }
 
@@ -33,7 +32,7 @@ namespace UserDataForm
         {
             try
             {
-                string gender = radioButtonMale.Checked ? "Чоловік" : "Жінка";
+                string gender = radioButtonMale.Checked ? "пїЅпїЅпїЅпїЅпїЅпїЅ" : "ЖіпїЅпїЅпїЅ";
                 double weight = double.Parse(textBoxWeight.Text);
                 double height = double.Parse(textBoxHeight.Text);
                 int age = int.Parse(txtAge.Text);
@@ -41,13 +40,12 @@ namespace UserDataForm
 
                 double dailyCalories = CalculateDailyCalories(gender, weight, height, age, activityLevel);
                 this.Hide();
-                FoodDatabaseManager foodManager = new FoodDatabaseManager();
-                CalorieCalc calorieCalculator = new CalorieCalc(Weight, Height, Gender, Age, ActivityLevel, dailyCalories, foodManager);
+                CalorieCalc calorieCalculator = new CalorieCalc(weight, height, gender, age, activityLevel, dailyCalories);
                 calorieCalculator.Show();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Помилка: {ex.Message}", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: {ex.Message}", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
            
         }
@@ -56,17 +54,17 @@ namespace UserDataForm
         {
             double bmr;
 
-            if (gender == "Чоловік")
+            if (gender == "пїЅпїЅпїЅпїЅпїЅпїЅ")
             {
                 bmr = 10 * weight + 6.25 * height - 5 * age + 5;
             }
-            else if (gender == "Жінка")
+            else if (gender == "ЖіпїЅпїЅпїЅ")
             {
                 bmr = 10 * weight + 6.25 * height - 5 * age - 161;
             }
             else
             {
-                throw new ArgumentException("Невірно вказана стать");
+                throw new ArgumentException("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ");
             }
 
             return bmr * activityLevel;

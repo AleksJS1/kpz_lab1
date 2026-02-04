@@ -8,14 +8,14 @@ namespace Calculator
 {
     public partial class CalorieCalc : Form
     {
-        private FoodDatabaseManager foodDatabaseManager;
+        private FoodDatabaseManagerSingleton foodDatabaseManager;
         private Meal currentMeal;
         private double dailyCalorieNorm;
 
         public CalorieCalc()
         {
             InitializeComponent();
-            foodDatabaseManager = new FoodDatabaseManager();
+            foodDatabaseManager = FoodDatabaseManagerSingleton.Instance;
             currentMeal = new Meal();
             InitializeFoodComboBox();
 
@@ -23,41 +23,41 @@ namespace Calculator
 
         public void InitializeFoodComboBox()
         {
-            FoodСomboBox.Items.Clear();
+            FoodпїЅomboBox.Items.Clear();
             foreach (var food in foodDatabaseManager.FoodDatabase)
             {
-                FoodСomboBox.Items.Add(food);
+                FoodпїЅomboBox.Items.Add(food);
             }
 
-            if (FoodСomboBox.Items.Count > 0)
-                FoodСomboBox.SelectedIndex = 0;
+            if (FoodпїЅomboBox.Items.Count > 0)
+                FoodпїЅomboBox.SelectedIndex = 0;
         }
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            if (FoodСomboBox.SelectedItem is FoodItem selectedFood &&
+            if (FoodпїЅomboBox.SelectedItem is FoodItem selectedFood &&
                 double.TryParse(textBoxWeight.Text, out double weight) && weight > 0)
             {
                 currentMeal.AddFoodItem(selectedFood, weight);
-                listBoxItems.Items.Add($"{selectedFood.Name} - {weight}г");
-                labelTotalCalories.Text = $"Загальна кількість калорій: {currentMeal.CalculateTotalCalories():F2} ккал";
+                listBoxItems.Items.Add($"{selectedFood.Name} - {weight}пїЅ");
+                labelTotalCalories.Text = $"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: {currentMeal.CalculateTotalCalories():F2} пїЅпїЅпїЅпїЅ";
                 textBoxWeight.Clear();
             }
             else
             {
-                MessageBox.Show("Будь ласка, введіть коректну вагу продукту!", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ!", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
 
 
-        public CalorieCalc(double weight, double height, string gender, int age, double activityLevel, double dailyCalories, FoodDatabaseManager foodManager)
+        public CalorieCalc(double weight, double height, string gender, int age, double activityLevel, double dailyCalories)
         {
             InitializeComponent();
-            foodDatabaseManager = foodManager;
+            foodDatabaseManager = FoodDatabaseManagerSingleton.Instance;
             currentMeal = new Meal();
             this.dailyCalorieNorm = dailyCalories;
-            calorieNorm.Text = $"Денна норма: {dailyCalorieNorm:F0} ккал";
+            calorieNorm.Text = $"пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ: {dailyCalorieNorm:F0} пїЅпїЅпїЅпїЅ";
             InitializeFoodComboBox();
         }
 
