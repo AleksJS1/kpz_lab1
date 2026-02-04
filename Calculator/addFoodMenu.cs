@@ -4,13 +4,13 @@ namespace addFoodMenu
 {
     public partial class addFood : Form
     {
-        private FoodDatabaseManager foodDatabaseManager;
+        private FoodDatabaseManagerSingleton foodDatabaseManager;
         private CalorieCalc calorieCalc;
 
         public addFood(CalorieCalc calorieCalc)
         {
             InitializeComponent();
-            foodDatabaseManager = new FoodDatabaseManager();
+            foodDatabaseManager = FoodDatabaseManagerSingleton.Instance;
             this.calorieCalc = calorieCalc;
         }
 
@@ -26,16 +26,16 @@ namespace addFoodMenu
                     textBoxNewFoodName.Clear();
                     
                     textBoxNewFoodCalories.Clear();
-                    MessageBox.Show("Продукт додано до бази даних!", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!", "", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Будь ласка, введіть коректні дані!", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ!", "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
