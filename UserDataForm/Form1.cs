@@ -4,12 +4,6 @@ namespace UserDataForm
 {
     public partial class Form1 : System.Windows.Forms.Form
     {
-        public double Weight { get; private set; }
-        public double Height { get; private set; }
-        public Gender Gender { get; private set; }
-        public int Age { get; private set; }
-        public double ActivityLevel { get; private set; }
-        public double dailyCalories { get; private set; }
         public Form1()
         {
             InitializeComponent();
